@@ -31,7 +31,7 @@ public class EmailHelper
 //			{
 //				protected PasswordAuthentication getPasswordAuthentication()
 //				{
-//					return new PasswordAuthentication("thinkerhouse@gmail.com", "$#Iraji12120");
+//					return new PasswordAuthentication("thinkerhouse@gmail.com", "PASSWORD");
 //				}
 //			});
 //			Message msg = new MimeMessage(session);
@@ -66,7 +66,7 @@ public class EmailHelper
 			{
 				protected PasswordAuthentication getPasswordAuthentication()
 				{
-					return new PasswordAuthentication("faiz.shiraji@cloudwell.co", "$hiraji12120");
+					return new PasswordAuthentication("faiz.shiraji@cloudwell.co", "PASSWORD");
 				}
 			});
 			Message msg = new MimeMessage(session);
